@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "adventofcode"
+version = "0.1.0"
+description = "https://adventofcode.com/"
+authors = ["Stiff Neck Jim <22213990+stiffneckjim@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
