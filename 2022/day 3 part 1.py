@@ -16,8 +16,8 @@ def find_duplicate(left, right):
                 return left[i]
 
 
-# with open("day 3 input.txt", "r") as f:
-with open("test.txt", "r") as f:
+# with open("test.txt", "r") as f:
+with open("day 3 input.txt", "r") as f:
     lines = f.readlines()
 
 
